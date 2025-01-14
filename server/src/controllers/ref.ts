@@ -1,6 +1,6 @@
 import type { Request, Response } from "express";
 import cryptoRandomString from "crypto-random-string";
-import { userModel } from "../models/refUser";
+import userModel from "../models/refUser";
 import { getSolBalance } from "../utils/getBalance";
 
 export const userRef = async (req: Request, res: Response) => { 
